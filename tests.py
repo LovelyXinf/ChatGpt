@@ -11,10 +11,6 @@ if __name__ == "__main__":
 
     # Run the tests
     unittest.TextTestRunner().run(suite)
-
-    # Stop coverage collection
     cov.stop()
     cov.save()
-
-    # Report the coverage
     cov.report(show_missing=True)
