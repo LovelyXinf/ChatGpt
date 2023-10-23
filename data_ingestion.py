@@ -6,8 +6,6 @@ from autogpt.commands.file_operations import ingest_file, search_files
 from autogpt.memory import get_memory
 
 cfg = Config()
-
-
 def configure_logging():
     logging.basicConfig(
         filename="log-ingestion.txt",
